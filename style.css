@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 500vh;
+
+  font-family: "Cairo", sans-serif;
+  font-weight: 800;
+}
+.cont {
+  width: 100%;
+  background-color: #0e0e0e;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  /* background-color: #9e9e9e21; */
+}
+.logo {
+  align-self: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+  width: 40%;
+  list-style: none;
+}
+/* .list li{
+    
+} */
+.list .active {
+  background-color: aliceblue;
+  color: black;
+  padding: 10px 30px;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.intro {
+  width: 50%;
+  margin: 10em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro h1 {
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+.intro p {
+  width: 90%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 100%;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  margin: 8px;
+  /* border-bottom: ; */
+}
+.card:hover img {
+  transition: 0.5s;
+  transform: translateY(-20px);
+}
+.card img {
+  width: 100%;
+  border-radius: 10%;
+}
+.card .image {
+  height: 90%;
+}
+.lin {
+  justify-content: flex-start;
+}
+.lin .card {
+  margin-left: 90px;
+}
+
+.down {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text img {
+  width: 40%;
+}
+.text p {
+  width: 30%;
+  font-size: 40px;
+  font-weight: 900;
+}
+.btn {
+  position: relative;
+  left: 65%;
+  height: 200px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button {
+  width: 50%;
+  background-color: #0e0e0e;
+  color: white;
+  padding: 10px 30px;
+}
+
+.shapes {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+.shape {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(160, 154, 147, 0.627);
+}
